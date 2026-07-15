@@ -1,0 +1,44 @@
+{
+  "name": "Sleeping Shaq",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "99683372",
+    "url": "https://i.imgflip.com/1nck6k.jpg",
+    "width": 640,
+    "height": 631
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.0102,
+      "y": 0.0103,
+      "w": 0.4653,
+      "h": 0.5175,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0.1,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.0102,
+      "y": 0.5589,
+      "w": 0.4653,
+      "h": 0.4078,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0.1,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

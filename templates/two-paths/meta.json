@@ -1,0 +1,52 @@
+{
+  "name": "Two Paths",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "309668311",
+    "url": "https://i.imgflip.com/54d9lj.png",
+    "width": 416,
+    "height": 416
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0,
+      "y": 0.198,
+      "w": 0.4755,
+      "h": 0.2337,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.4857,
+      "y": 0.1969,
+      "w": 0.5,
+      "h": 0.2418,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.3694,
+      "y": 0.824,
+      "w": 0.2531,
+      "h": 0.176,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

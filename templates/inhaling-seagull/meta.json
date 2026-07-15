@@ -1,0 +1,54 @@
+{
+  "name": "Inhaling Seagull",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "114585149",
+    "url": "https://i.imgflip.com/1w7ygt.jpg",
+    "width": 1269,
+    "height": 2825
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0095,
+      "y": 0.0042,
+      "w": 0.9795,
+      "h": 0.0821,
+      "style": {
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0118,
+      "y": 0.2428,
+      "w": 0.9795,
+      "h": 0.0729,
+      "style": {
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.5894,
+      "y": 0.5589,
+      "w": 0.383,
+      "h": 0.0581,
+      "style": {
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text4",
+      "x": 0.0118,
+      "y": 0.9009,
+      "w": 0.9771,
+      "h": 0.0903,
+      "style": {
+        "stroke": "#000000"
+      }
+    }
+  ]
+}

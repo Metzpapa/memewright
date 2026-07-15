@@ -1,0 +1,38 @@
+{
+  "name": "AJ Styles & Undertaker",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "234202281",
+    "url": "https://i.imgflip.com/3vfrmx.jpg",
+    "width": 933,
+    "height": 525
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.0245,
+      "y": 0.185,
+      "w": 0.3673,
+      "h": 0.5329,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.7143,
+      "y": 0,
+      "w": 0.2857,
+      "h": 0.4676,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

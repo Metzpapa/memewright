@@ -1,0 +1,50 @@
+{
+  "name": "Grim Reaper Knocking Door",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "104893621",
+    "url": "https://i.imgflip.com/1qg8fp.jpg",
+    "width": 500,
+    "height": 312
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0469,
+      "y": 0.1079,
+      "w": 0.1735,
+      "h": 0.286,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.2796,
+      "y": 0.0828,
+      "w": 0.2735,
+      "h": 0.3318,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.6551,
+      "y": 0.0578,
+      "w": 0.2776,
+      "h": 0.4332,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

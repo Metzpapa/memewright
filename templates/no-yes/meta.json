@@ -1,0 +1,38 @@
+{
+  "name": "No - Yes",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "129315248",
+    "url": "https://i.imgflip.com/24zoa8.jpg",
+    "width": 429,
+    "height": 343
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.3898,
+      "y": 0.0434,
+      "w": 0.5796,
+      "h": 0.444,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.3939,
+      "y": 0.5279,
+      "w": 0.5735,
+      "h": 0.4389,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

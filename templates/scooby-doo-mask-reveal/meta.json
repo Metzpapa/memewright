@@ -1,0 +1,64 @@
+{
+  "name": "Scooby doo mask reveal",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "145139900",
+    "url": "https://i.imgflip.com/2eeunw.jpg",
+    "width": 720,
+    "height": 960
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0122,
+      "y": 0.2847,
+      "w": 0.3776,
+      "h": 0.1903,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.6143,
+      "y": 0.3536,
+      "w": 0.3673,
+      "h": 0.1459,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.0143,
+      "y": 0.7561,
+      "w": 0.3653,
+      "h": 0.1628,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text4",
+      "x": 0.6184,
+      "y": 0.7434,
+      "w": 0.3592,
+      "h": 0.2133,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

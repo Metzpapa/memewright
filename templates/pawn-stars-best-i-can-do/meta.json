@@ -1,0 +1,34 @@
+{
+  "name": "Pawn Stars Best I Can Do",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "77045868",
+    "url": "https://i.imgflip.com/19vcz0.jpg",
+    "width": 624,
+    "height": 352
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.05,
+      "y": 0.03,
+      "w": 0.9,
+      "h": 0.3,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.05,
+      "y": 0.67,
+      "w": 0.9,
+      "h": 0.3,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

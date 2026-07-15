@@ -1,0 +1,34 @@
+{
+  "name": "But That's None Of My Business",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "16464531",
+    "url": "https://i.imgflip.com/9sw43.jpg",
+    "width": 600,
+    "height": 600
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.05,
+      "y": 0.03,
+      "w": 0.9,
+      "h": 0.3,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.05,
+      "y": 0.67,
+      "w": 0.9,
+      "h": 0.3,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

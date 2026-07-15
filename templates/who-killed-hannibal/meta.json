@@ -1,0 +1,44 @@
+{
+  "name": "Who Killed Hannibal",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "135678846",
+    "url": "https://i.imgflip.com/28s2gu.jpg",
+    "width": 1280,
+    "height": 1440
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.4891,
+      "y": 0.2938,
+      "w": 0.418,
+      "h": 0.1611,
+      "style": {
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0469,
+      "y": 0.3722,
+      "w": 0.3891,
+      "h": 0.1229,
+      "style": {
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.3508,
+      "y": 0.8285,
+      "w": 0.6406,
+      "h": 0.15,
+      "style": {
+        "stroke": "#000000"
+      }
+    }
+  ]
+}

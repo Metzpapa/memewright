@@ -1,47 +1,53 @@
 {
   "name": "Expanding Brain",
   "file": "image.jpg",
+  "imgflip": {
+    "id": "93895088",
+    "url": "https://i.imgflip.com/1jwhww.jpg",
+    "width": 857,
+    "height": 1202
+  },
   "meaning": "Four stacked panels: a brain glows brighter/bigger with each row, mock-signaling escalating \"enlightenment\". For an escalating list where each step is (ironically) presented as smarter.",
   "when_to_use": "level1..level4 escalate from basic to absurd/galaxy-brained. Text on the dark left panels.",
   "boxes": [
     {
       "id": "level1",
-      "x": 0.02,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.25,
+      "x": 0.0082,
+      "y": 0.0058,
+      "w": 0.4755,
+      "h": 0.2357,
       "style": {
-        "valign": "middle"
+        "stroke": "#000000"
       }
     },
     {
       "id": "level2",
-      "x": 0.02,
-      "y": 0.25,
-      "w": 0.5,
-      "h": 0.25,
+      "x": 0.0082,
+      "y": 0.2561,
+      "w": 0.4755,
+      "h": 0.243,
       "style": {
-        "valign": "middle"
+        "stroke": "#000000"
       }
     },
     {
       "id": "level3",
-      "x": 0.02,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.25,
+      "x": 0.0082,
+      "y": 0.5122,
+      "w": 0.4755,
+      "h": 0.2168,
       "style": {
-        "valign": "middle"
+        "stroke": "#000000"
       }
     },
     {
       "id": "level4",
-      "x": 0.02,
-      "y": 0.75,
-      "w": 0.5,
-      "h": 0.25,
+      "x": 0.0082,
+      "y": 0.7482,
+      "w": 0.4755,
+      "h": 0.2296,
       "style": {
-        "valign": "middle"
+        "stroke": "#000000"
       }
     }
   ]

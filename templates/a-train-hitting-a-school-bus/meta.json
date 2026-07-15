@@ -1,0 +1,38 @@
+{
+  "name": "A train hitting a school bus",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "247113703",
+    "url": "https://i.imgflip.com/434i5j.png",
+    "width": 920,
+    "height": 1086
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.2551,
+      "y": 0.1539,
+      "w": 0.7245,
+      "h": 0.205,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.1306,
+      "y": 0.5408,
+      "w": 0.3429,
+      "h": 0.3641,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.083,
+        "maxFontPx": 60
+      }
+    }
+  ]
+}

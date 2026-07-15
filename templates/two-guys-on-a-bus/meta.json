@@ -1,0 +1,40 @@
+{
+  "name": "Two guys on a bus",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "354700819",
+    "url": "https://i.imgflip.com/5v6gwj.jpg",
+    "width": 762,
+    "height": 675
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.0122,
+      "y": 0.4009,
+      "w": 0.4041,
+      "h": 0.1532,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.5592,
+      "y": 0.2777,
+      "w": 0.4102,
+      "h": 0.2016,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

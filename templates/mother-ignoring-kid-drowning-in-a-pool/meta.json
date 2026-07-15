@@ -1,0 +1,62 @@
+{
+  "name": "Mother Ignoring Kid Drowning In A Pool",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "252758727",
+    "url": "https://i.imgflip.com/46hhvr.jpg",
+    "width": 782,
+    "height": 1032
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.1286,
+      "y": 0.4655,
+      "w": 0.2571,
+      "h": 0.1015,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.3714,
+      "y": 0.2722,
+      "w": 0.2571,
+      "h": 0.1139,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.7449,
+      "y": 0.3425,
+      "w": 0.2327,
+      "h": 0.0984,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text4",
+      "x": 0.3653,
+      "y": 0.7678,
+      "w": 0.3408,
+      "h": 0.1727,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

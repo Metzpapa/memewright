@@ -1,0 +1,39 @@
+{
+  "name": "0 days without (Lenny, Simpsons)",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "427308417",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "width": 619,
+    "height": 403
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.5224,
+      "y": 0.279,
+      "w": 0.4571,
+      "h": 0.1842,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.349,
+      "y": 0.7531,
+      "w": 0.2531,
+      "h": 0.1842,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

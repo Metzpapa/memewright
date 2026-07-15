@@ -1,0 +1,36 @@
+{
+  "name": "Evil Kermit",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "84341851",
+    "url": "https://i.imgflip.com/1e7ql7.jpg",
+    "width": 700,
+    "height": 325
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.0061,
+      "y": 0.0132,
+      "w": 0.5796,
+      "h": 0.1978,
+      "style": {
+        "stroke": "#000000",
+        "valign": "top"
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.3286,
+      "y": 0.7253,
+      "w": 0.6633,
+      "h": 0.2462,
+      "style": {
+        "stroke": "#000000",
+        "valign": "bottom"
+      }
+    }
+  ]
+}

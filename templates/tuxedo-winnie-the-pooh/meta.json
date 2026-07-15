@@ -1,0 +1,40 @@
+{
+  "name": "Tuxedo Winnie The Pooh",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "178591752",
+    "url": "https://i.imgflip.com/2ybua0.png",
+    "width": 800,
+    "height": 582
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.4429,
+      "y": 0.014,
+      "w": 0.5429,
+      "h": 0.4713,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "allCaps": false
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.4429,
+      "y": 0.5274,
+      "w": 0.5429,
+      "h": 0.4544,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "allCaps": false
+      }
+    }
+  ]
+}

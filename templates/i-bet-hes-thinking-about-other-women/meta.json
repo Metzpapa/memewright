@@ -1,0 +1,45 @@
+{
+  "name": "I Bet He's Thinking About Other Women",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "110163934",
+    "url": "https://i.imgflip.com/1tl71a.jpg",
+    "width": 1654,
+    "height": 930
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.0102,
+      "y": 0.4501,
+      "w": 0.5245,
+      "h": 0.2064,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0.06,
+        "allCaps": false,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.4184,
+      "y": 0.6738,
+      "w": 0.5714,
+      "h": 0.279,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0.06,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

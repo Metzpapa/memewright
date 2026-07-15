@@ -1,0 +1,46 @@
+{
+  "name": "This Is Fine",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "55311130",
+    "url": "https://i.imgflip.com/wxica.jpg",
+    "width": 580,
+    "height": 282
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.0224,
+      "y": 0.0462,
+      "w": 0.4653,
+      "h": 0.2752,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0.1,
+        "allCaps": false,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.5143,
+      "y": 0.7962,
+      "w": 0.3449,
+      "h": 0.1619,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0.1,
+        "allCaps": false,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

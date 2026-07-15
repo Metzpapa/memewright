@@ -1,0 +1,39 @@
+{
+  "name": "Squidward window",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "67452763",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "width": 598,
+    "height": 420
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.0633,
+      "y": 0,
+      "w": 0.3469,
+      "h": 0.6307,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.4327,
+      "y": 0.4885,
+      "w": 0.5571,
+      "h": 0.2558,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

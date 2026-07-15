@@ -26,6 +26,18 @@ function parseArgs(argv) {
       const kv = argv[++i] || '';
       const eq = kv.indexOf('=');
       if (eq > 0) args.set[kv.slice(0, eq)] = kv.slice(eq + 1);
+    } else if (a === '--image') {
+      // path@x,y,w[,rotation][,opacity][,under]   coords are fractions 0..1
+      const spec = argv[++i] || '';
+      const at = spec.lastIndexOf('@');
+      const src = at >= 0 ? spec.slice(0, at) : spec;
+      const parts = (at >= 0 ? spec.slice(at + 1) : '').split(',');
+      const under = parts.includes('under');
+      const n = parts.filter((p) => p !== 'under').map(Number);
+      (args.images ||= []).push({
+        src, x: n[0] ?? 0.70, y: n[1] ?? 0.70, w: n[2] ?? 0.25,
+        rotation: n[3] || 0, opacity: n[4] ?? 1, layer: under ? 'under' : 'over',
+      });
     } else args._.push(a);
   }
   return args;
@@ -51,6 +63,10 @@ Caption options for \`make\`:
   --captions '{"id":"text"}'    Fill boxes from a JSON object
   -o, --out <file>              Output path (default: stdout)
   --jpeg                        Encode JPEG instead of PNG
+  --image path@x,y,w[,rot][,op][,under]
+                                Overlay a logo/sticker (coords are fractions 0..1;
+                                x,y = top-left, w = width. 'under' = behind text).
+                                Repeatable.
 
 Examples:
   memewright list --json
@@ -89,7 +105,7 @@ if (cmd === 'make') {
   if (Object.keys(captions).length === 0) die('no captions given; see `memewright info ' + slug + '`');
 
   let result;
-  try { result = await renderMeme(getTemplate(slug), captions, { format: args.jpeg ? 'jpeg' : 'png' }); }
+  try { result = await renderMeme(getTemplate(slug), captions, { format: args.jpeg ? 'jpeg' : 'png', images: args.images }); }
   catch (e) { die(e.message); }
 
   for (const w of result.warnings) console.error('warning: ' + w);

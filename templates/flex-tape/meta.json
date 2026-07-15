@@ -1,0 +1,46 @@
+{
+  "name": "Flex Tape",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "166969924",
+    "url": "https://i.imgflip.com/2reqtg.png",
+    "width": 510,
+    "height": 572
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.5898,
+      "y": 0.0073,
+      "w": 0.4,
+      "h": 0.19,
+      "style": {
+        "stroke": "#000000",
+        "valign": "top"
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.3918,
+      "y": 0.6354,
+      "w": 0.4163,
+      "h": 0.1408,
+      "style": {
+        "stroke": "#000000",
+        "valign": "bottom"
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.1939,
+      "y": 0.1912,
+      "w": 0.2204,
+      "h": 0.1135,
+      "style": {
+        "stroke": "#000000"
+      }
+    }
+  ]
+}

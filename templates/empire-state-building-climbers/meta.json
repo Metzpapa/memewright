@@ -1,0 +1,27 @@
+{
+  "name": "Empire State Building climbers",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "657846647",
+    "url": "https://i.imgflip.com/avnxpz.png",
+    "width": 1024,
+    "height": 702
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.4966,
+      "y": 0.4224,
+      "w": 0.3823,
+      "h": 0.3698,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "rotation": 18,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Gus Fring we are not the same",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "342785297",
+    "url": "https://i.imgflip.com/5o32tt.png",
+    "width": 700,
+    "height": 1000
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0102,
+      "y": 0.0071,
+      "w": 0.9796,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0184,
+      "y": 0.4571,
+      "w": 0.9796,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.0163,
+      "y": 0.7486,
+      "w": 0.9796,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

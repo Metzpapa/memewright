@@ -1,0 +1,39 @@
+{
+  "name": "whe i'm in a competition and my opponent is",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "360597639",
+    "url": "https://i.imgflip.com/5youx3.jpg",
+    "width": 916,
+    "height": 900
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.0102,
+      "y": 0.1018,
+      "w": 0.9898,
+      "h": 0.1586,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.5592,
+      "y": 0.3574,
+      "w": 0.4408,
+      "h": 0.1815,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "They're The Same Picture",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "180190441",
+    "url": "https://i.imgflip.com/2za3u1.jpg",
+    "width": 1363,
+    "height": 1524
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.1104,
+      "y": 0.0704,
+      "w": 0.3313,
+      "h": 0.25,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "rotation": 11,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.5848,
+      "y": 0.127,
+      "w": 0.3959,
+      "h": 0.2554,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "rotation": 9,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.3551,
+      "y": 0.8131,
+      "w": 0.6041,
+      "h": 0.1168,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0.1,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

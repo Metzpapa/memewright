@@ -1,22 +1,36 @@
 {
   "name": "Batman Slapping Robin",
   "file": "image.jpg",
+  "imgflip": {
+    "id": "438680",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "width": 400,
+    "height": 387
+  },
   "meaning": "Robin starts to say something and Batman slaps him mid-sentence. For shutting down a bad take immediately.",
   "when_to_use": "robin = the naive/wrong statement (left); batman = the slapping correction (right).",
   "boxes": [
     {
       "id": "robin",
-      "x": 0.03,
-      "y": 0.04,
-      "w": 0.42,
-      "h": 0.44
+      "x": 0.0347,
+      "y": 0.0084,
+      "w": 0.4367,
+      "h": 0.1898,
+      "style": {
+        "color": "#000000",
+        "stroke": "#ffffff"
+      }
     },
     {
       "id": "batman",
-      "x": 0.52,
-      "y": 0.04,
-      "w": 0.44,
-      "h": 0.44
+      "x": 0.5571,
+      "y": 0.0127,
+      "w": 0.4184,
+      "h": 0.1856,
+      "style": {
+        "color": "#000000",
+        "stroke": "#ffffff"
+      }
     }
   ]
 }

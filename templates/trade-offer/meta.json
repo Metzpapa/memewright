@@ -1,0 +1,56 @@
+{
+  "name": "Trade Offer",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "309868304",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "width": 607,
+    "height": 794
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0544,
+      "y": 0.2231,
+      "w": 0.343,
+      "h": 0.0893,
+      "style": {
+        "font": "Arial",
+        "stroke": "#000000",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.5479,
+      "y": 0.2251,
+      "w": 0.364,
+      "h": 0.0893,
+      "style": {
+        "font": "Arial",
+        "stroke": "#000000",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.0076,
+      "y": 0.8867,
+      "w": 0.9772,
+      "h": 0.1009,
+      "style": {
+        "font": "Arial",
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

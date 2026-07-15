@@ -1,0 +1,53 @@
+{
+  "name": "Anakin Padme 4 Panel",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "322841258",
+    "url": "https://i.imgflip.com/5c7lwq.png",
+    "width": 768,
+    "height": 768
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0102,
+      "y": 0.3592,
+      "w": 0.4857,
+      "h": 0.1398,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.502,
+      "y": 0.3622,
+      "w": 0.4898,
+      "h": 0.1357,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.498,
+      "y": 0.8602,
+      "w": 0.502,
+      "h": 0.1398,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

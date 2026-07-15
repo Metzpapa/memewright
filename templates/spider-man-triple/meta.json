@@ -1,0 +1,50 @@
+{
+  "name": "Spider Man Triple",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "206151308",
+    "url": "https://i.imgflip.com/3eqjd8.jpg",
+    "width": 600,
+    "height": 551
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0592,
+      "y": 0.3822,
+      "w": 0.2796,
+      "h": 0.2433,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.4306,
+      "y": 0.2255,
+      "w": 0.2408,
+      "h": 0.2144,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.702,
+      "y": 0.435,
+      "w": 0.2449,
+      "h": 0.2256,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

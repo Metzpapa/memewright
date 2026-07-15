@@ -1,0 +1,40 @@
+{
+  "name": "Trump Bill Signing",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "91545132",
+    "url": "https://i.imgflip.com/1ii4oc.jpg",
+    "width": 1866,
+    "height": 1529
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.398,
+      "y": 0.3636,
+      "w": 0.2388,
+      "h": 0.3935,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#beced9",
+        "allCaps": false
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.6816,
+      "y": 0.3686,
+      "w": 0.2408,
+      "h": 0.2989,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#beced3",
+        "allCaps": false
+      }
+    }
+  ]
+}

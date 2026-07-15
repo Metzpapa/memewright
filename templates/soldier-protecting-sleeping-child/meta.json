@@ -1,0 +1,52 @@
+{
+  "name": "Soldier protecting sleeping child",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "171305372",
+    "url": "https://i.imgflip.com/2tzo2k.jpg",
+    "width": 540,
+    "height": 440
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0102,
+      "y": 0.0125,
+      "w": 0.3327,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.2673,
+      "y": 0.4344,
+      "w": 0.2082,
+      "h": 0.3301,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.5082,
+      "y": 0.7883,
+      "w": 0.4163,
+      "h": 0.1974,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

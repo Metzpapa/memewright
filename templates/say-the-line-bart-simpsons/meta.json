@@ -1,0 +1,52 @@
+{
+  "name": "say the line bart! simpsons",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "72525473",
+    "url": "https://i.imgflip.com/176h0h.jpg",
+    "width": 395,
+    "height": 650
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0122,
+      "y": 0.2518,
+      "w": 0.9796,
+      "h": 0.0838,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0204,
+      "y": 0.3593,
+      "w": 0.9796,
+      "h": 0.1235,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0,
+      "y": 0.8885,
+      "w": 0.9796,
+      "h": 0.1111,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Marked Safe From",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "161865971",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "width": 618,
+    "height": 499
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.0076,
+      "y": 0.4941,
+      "w": 0.9747,
+      "h": 0.2221,
+      "style": {
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "allCaps": false
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.4138,
+      "y": 0.1485,
+      "w": 0.2229,
+      "h": 0.0625,
+      "style": {
+        "stroke": "#000000",
+        "allCaps": false,
+        "valign": "bottom",
+        "rotation": 351
+      }
+    }
+  ]
+}

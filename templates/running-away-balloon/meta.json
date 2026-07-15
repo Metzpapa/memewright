@@ -1,27 +1,63 @@
 {
   "name": "Running Away Balloon",
   "file": "image.jpg",
+  "imgflip": {
+    "id": "131087935",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "width": 761,
+    "height": 1024
+  },
   "meaning": "A person reaches longingly for a balloon floating away. Labeled balloons/figures represent what someone wants versus what holds them back.",
   "when_to_use": "want = the balloon drifting away (top); person = who reaches for it (bottom-left). Simple two-label version.",
   "boxes": [
     {
-      "id": "want",
-      "x": 0.48,
-      "y": 0.04,
-      "w": 0.48,
-      "h": 0.14,
+      "id": "text1",
+      "x": 0.0265,
+      "y": 0.3124,
+      "w": 0.4327,
+      "h": 0.1211,
       "style": {
-        "valign": "top"
+        "stroke": "#000000"
       }
     },
     {
-      "id": "person",
-      "x": 0.04,
-      "y": 0.8,
-      "w": 0.46,
-      "h": 0.16,
+      "id": "text2",
+      "x": 0.6347,
+      "y": 0.0827,
+      "w": 0.3551,
+      "h": 0.2394,
       "style": {
-        "valign": "bottom"
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.0082,
+      "y": 0.7314,
+      "w": 0.251,
+      "h": 0.1605,
+      "style": {
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text4",
+      "x": 0.3306,
+      "y": 0.7633,
+      "w": 0.3204,
+      "h": 0.0968,
+      "style": {
+        "stroke": "#000000"
+      }
+    },
+    {
+      "id": "text5",
+      "x": 0.7959,
+      "y": 0.5797,
+      "w": 0.1959,
+      "h": 0.1802,
+      "style": {
+        "stroke": "#000000"
       }
     }
   ]

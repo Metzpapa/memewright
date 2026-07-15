@@ -1,0 +1,53 @@
+{
+  "name": "is this butterfly",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "142009471",
+    "url": "https://i.imgflip.com/2cjr7j.jpg",
+    "width": 1587,
+    "height": 1425
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0102,
+      "y": 0.0114,
+      "w": 0.4959,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.6571,
+      "y": 0.3523,
+      "w": 0.3429,
+      "h": 0.1705,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.002,
+      "y": 0.8228,
+      "w": 0.9796,
+      "h": 0.1795,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

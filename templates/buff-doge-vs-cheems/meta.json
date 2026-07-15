@@ -1,0 +1,76 @@
+{
+  "name": "Buff Doge vs. Cheems",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "247375501",
+    "url": "https://i.imgflip.com/43a45p.png",
+    "width": 937,
+    "height": 720
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0102,
+      "y": 0.0133,
+      "w": 0.4551,
+      "h": 0.1013,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.5714,
+      "y": 0.0143,
+      "w": 0.4204,
+      "h": 0.1438,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0,
+      "y": 0.7415,
+      "w": 0.4653,
+      "h": 0.1783,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text4",
+      "x": 0.5816,
+      "y": 0.7415,
+      "w": 0.4082,
+      "h": 0.1783,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

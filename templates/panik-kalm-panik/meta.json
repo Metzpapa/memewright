@@ -1,0 +1,59 @@
+{
+  "name": "Panik Kalm Panik",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "226297822",
+    "url": "https://i.imgflip.com/3qqcim.png",
+    "width": 640,
+    "height": 881
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0224,
+      "y": 0.0074,
+      "w": 0.4449,
+      "h": 0.3271,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0224,
+      "y": 0.3482,
+      "w": 0.4449,
+      "h": 0.3226,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.0224,
+      "y": 0.6952,
+      "w": 0.4449,
+      "h": 0.2826,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

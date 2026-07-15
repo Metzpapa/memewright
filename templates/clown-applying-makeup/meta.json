@@ -1,0 +1,74 @@
+{
+  "name": "Clown Applying Makeup",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "195515965",
+    "url": "https://i.imgflip.com/38el31.jpg",
+    "width": 750,
+    "height": 798
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0102,
+      "y": 0.0096,
+      "w": 0.4878,
+      "h": 0.2359,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0102,
+      "y": 0.2609,
+      "w": 0.4878,
+      "h": 0.234,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.0102,
+      "y": 0.5102,
+      "w": 0.4878,
+      "h": 0.2359,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "text4",
+      "x": 0.0102,
+      "y": 0.7634,
+      "w": 0.4878,
+      "h": 0.211,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

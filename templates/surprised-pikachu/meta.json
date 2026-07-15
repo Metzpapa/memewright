@@ -1,0 +1,58 @@
+{
+  "name": "Surprised Pikachu",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "155067746",
+    "url": "https://i.imgflip.com/2kbn1e.jpg",
+    "width": 1893,
+    "height": 1893
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0143,
+      "y": 0.0079,
+      "w": 0.9773,
+      "h": 0.0877,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "allCaps": false,
+        "align": "left",
+        "valign": "top"
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0143,
+      "y": 0.1469,
+      "w": 0.9773,
+      "h": 0.0856,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "allCaps": false,
+        "align": "left",
+        "valign": "bottom"
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.0143,
+      "y": 0.2816,
+      "w": 0.9773,
+      "h": 0.0877,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "allCaps": false,
+        "align": "left"
+      }
+    }
+  ]
+}

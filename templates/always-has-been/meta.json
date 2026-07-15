@@ -1,0 +1,46 @@
+{
+  "name": "Always Has Been",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "252600902",
+    "url": "https://i.imgflip.com/46e43q.png",
+    "width": 960,
+    "height": 540
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.2551,
+      "y": 0.3447,
+      "w": 0.3571,
+      "h": 0.0871,
+      "style": {
+        "font": "Arial",
+        "stroke": "#000000",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "align": "left",
+        "valign": "top",
+        "maxFontPx": 25
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.7082,
+      "y": 0.0109,
+      "w": 0.2816,
+      "h": 0.1016,
+      "style": {
+        "font": "Arial",
+        "stroke": "#000000",
+        "strokeRatio": 0,
+        "allCaps": false,
+        "align": "left",
+        "valign": "top",
+        "maxFontPx": 25
+      }
+    }
+  ]
+}

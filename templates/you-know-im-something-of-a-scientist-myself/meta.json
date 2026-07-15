@@ -1,0 +1,43 @@
+{
+  "name": "You know, I'm something of a scientist myself",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "133946291",
+    "url": "https://i.imgflip.com/27qxmb.jpg",
+    "width": 1200,
+    "height": 600
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.0127,
+      "y": 0.0254,
+      "w": 0.9746,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.0127,
+      "y": 0.684,
+      "w": 0.9746,
+      "h": 0.25,
+      "style": {
+        "font": "Arial",
+        "color": "#eeee00",
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "allCaps": false,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

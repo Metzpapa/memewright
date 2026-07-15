@@ -1,0 +1,52 @@
+{
+  "name": "Epic Handshake",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "135256802",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "width": 900,
+    "height": 645
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.1959,
+      "y": 0.0513,
+      "w": 0.3816,
+      "h": 0.2905,
+      "style": {
+        "font": "Arial",
+        "stroke": "#00000000",
+        "allCaps": false
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0224,
+      "y": 0.5297,
+      "w": 0.3918,
+      "h": 0.2734,
+      "style": {
+        "font": "Arial",
+        "stroke": "#00000000",
+        "allCaps": false,
+        "rotation": 35
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.498,
+      "y": 0.4727,
+      "w": 0.4061,
+      "h": 0.2477,
+      "style": {
+        "font": "Arial",
+        "stroke": "#00000000",
+        "allCaps": false,
+        "rotation": -30
+      }
+    }
+  ]
+}

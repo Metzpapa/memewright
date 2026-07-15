@@ -1,0 +1,37 @@
+{
+  "name": "The Scroll Of Truth",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "123999232",
+    "url": "https://i.imgflip.com/21tqf4.jpg",
+    "width": 1280,
+    "height": 1236
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.1857,
+      "y": 0.5727,
+      "w": 0.1755,
+      "h": 0.2156,
+      "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "stroke": "#ffffff",
+        "allCaps": false
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.5082,
+      "y": 0.8581,
+      "w": 0.4286,
+      "h": 0.0951,
+      "style": {
+        "stroke": "#000000"
+      }
+    }
+  ]
+}

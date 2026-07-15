@@ -1,31 +1,50 @@
 {
   "name": "Left Exit 12 Off Ramp",
   "file": "image.jpg",
+  "imgflip": {
+    "id": "124822590",
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "width": 804,
+    "height": 767
+  },
   "meaning": "A car swerves hard across lines to take an exit at the last second. For abandoning the sensible path for a tempting bad one.",
   "when_to_use": "straight = the sensible option (left sign); exit = the tempting option being swerved toward (right sign); car = the decider (bottom).",
   "boxes": [
     {
       "id": "straight",
-      "x": 0.05,
-      "y": 0.05,
-      "w": 0.36,
-      "h": 0.16
+      "x": 0.2265,
+      "y": 0.107,
+      "w": 0.1653,
+      "h": 0.2439,
+      "style": {
+        "font": "Arial",
+        "stroke": "#024646",
+        "allCaps": false
+      }
     },
     {
       "id": "exit",
-      "x": 0.55,
-      "y": 0.05,
-      "w": 0.36,
-      "h": 0.16
+      "x": 0.5286,
+      "y": 0.1112,
+      "w": 0.1939,
+      "h": 0.2353,
+      "style": {
+        "font": "Arial",
+        "stroke": "#024646",
+        "allCaps": false
+      }
     },
     {
       "id": "car",
-      "x": 0.3,
-      "y": 0.8,
-      "w": 0.4,
-      "h": 0.14,
+      "x": 0.2612,
+      "y": 0.7231,
+      "w": 0.5571,
+      "h": 0.1519,
       "style": {
-        "valign": "bottom"
+        "font": "Arial",
+        "stroke": "#000000",
+        "allCaps": false,
+        "rotation": 353
       }
     }
   ]

@@ -1,0 +1,38 @@
+{
+  "name": "Domino Effect",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "162372564",
+    "url": "https://i.imgflip.com/2oo7h0.jpg",
+    "width": 820,
+    "height": 565
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.0557,
+      "y": 0.0404,
+      "w": 0.2955,
+      "h": 0.3463,
+      "style": {
+        "stroke": "#000000",
+        "allCaps": false,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.3212,
+      "y": 0.6979,
+      "w": 0.3469,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "allCaps": false,
+        "valign": "bottom"
+      }
+    }
+  ]
+}

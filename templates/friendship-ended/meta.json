@@ -1,0 +1,39 @@
+{
+  "name": "Friendship ended",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "137501417",
+    "url": "https://i.imgflip.com/29v4rt.jpg",
+    "width": 800,
+    "height": 600
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.6571,
+      "y": 0.0163,
+      "w": 0.3327,
+      "h": 0.2446,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.3306,
+      "y": 0.233,
+      "w": 0.2776,
+      "h": 0.182,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

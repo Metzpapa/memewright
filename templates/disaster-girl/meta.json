@@ -1,6 +1,12 @@
 {
   "name": "Disaster Girl",
   "file": "image.jpg",
+  "imgflip": {
+    "id": "97984",
+    "url": "https://i.imgflip.com/23ls.jpg",
+    "width": 500,
+    "height": 375
+  },
   "meaning": "A little girl smirks as a house burns behind her. For quietly enjoying chaos you caused or set in motion.",
   "when_to_use": "Top = the disaster/chaos; bottom = you, the smug cause. Or a single top caption.",
   "boxes": [

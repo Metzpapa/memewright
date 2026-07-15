@@ -1,0 +1,47 @@
+{
+  "name": "Sad Pablo Escobar",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "80707627",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "width": 720,
+    "height": 709
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "text1",
+      "x": 0.0082,
+      "y": 0.3461,
+      "w": 0.9796,
+      "h": 0.1422,
+      "style": {
+        "stroke": "#000000",
+        "valign": "bottom"
+      }
+    },
+    {
+      "id": "text2",
+      "x": 0.0102,
+      "y": 0.7997,
+      "w": 0.4776,
+      "h": 0.1733,
+      "style": {
+        "stroke": "#000000",
+        "valign": "bottom"
+      }
+    },
+    {
+      "id": "text3",
+      "x": 0.5122,
+      "y": 0.7999,
+      "w": 0.4755,
+      "h": 0.1733,
+      "style": {
+        "stroke": "#000000",
+        "valign": "bottom"
+      }
+    }
+  ]
+}

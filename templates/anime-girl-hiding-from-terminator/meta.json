@@ -1,0 +1,39 @@
+{
+  "name": "Anime Girl Hiding from Terminator",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "224514655",
+    "url": "https://i.imgflip.com/3po4m7.jpg",
+    "width": 581,
+    "height": 633
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0,
+      "y": 0,
+      "w": 0.4306,
+      "h": 0.25,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.4347,
+      "y": 0.5608,
+      "w": 0.4653,
+      "h": 0.2856,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

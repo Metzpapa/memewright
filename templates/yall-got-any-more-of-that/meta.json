@@ -1,0 +1,34 @@
+{
+  "name": "Y'all Got Any More Of That",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "124055727",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "width": 600,
+    "height": 471
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.05,
+      "y": 0.03,
+      "w": 0.9,
+      "h": 0.3,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.05,
+      "y": 0.67,
+      "w": 0.9,
+      "h": 0.3,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

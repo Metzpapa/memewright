@@ -1,0 +1,40 @@
+{
+  "name": "where monkey",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "316466202",
+    "url": "https://i.imgflip.com/58eyvu.png",
+    "width": 1113,
+    "height": 629
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.451,
+      "y": 0.1372,
+      "w": 0.2347,
+      "h": 0.1742,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.651,
+      "y": 0.5153,
+      "w": 0.2286,
+      "h": 0.1489,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

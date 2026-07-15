@@ -1,0 +1,40 @@
+{
+  "name": "spiderman pointing at spiderman",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "110133729",
+    "url": "https://i.imgflip.com/1tkjq9.jpg",
+    "width": 800,
+    "height": 450
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "left",
+      "x": 0.049,
+      "y": 0.4063,
+      "w": 0.4367,
+      "h": 0.3407,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "right",
+      "x": 0.5408,
+      "y": 0.438,
+      "w": 0.4347,
+      "h": 0.4278,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

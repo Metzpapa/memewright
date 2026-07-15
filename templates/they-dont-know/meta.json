@@ -1,0 +1,40 @@
+{
+  "name": "They don't know",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "284929871",
+    "url": "https://i.imgflip.com/4pn1an.png",
+    "width": 671,
+    "height": 673
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.3041,
+      "y": 0.0102,
+      "w": 0.6857,
+      "h": 0.1971,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.0143,
+      "y": 0.8549,
+      "w": 0.9796,
+      "h": 0.1442,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Grant Gustin over grave",
+  "file": "image.jpg",
+  "imgflip": {
+    "id": "221578498",
+    "url": "https://i.imgflip.com/3nx72a.png",
+    "width": 500,
+    "height": 475
+  },
+  "meaning": "",
+  "when_to_use": "",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.1306,
+      "y": 0.3158,
+      "w": 0.2429,
+      "h": 0.2693,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "top",
+        "rotation": -2,
+        "maxFontPx": 50
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.0898,
+      "y": 0.7844,
+      "w": 0.4122,
+      "h": 0.1877,
+      "style": {
+        "stroke": "#000000",
+        "strokeRatio": 0.1,
+        "valign": "bottom",
+        "maxFontPx": 50
+      }
+    }
+  ]
+}
