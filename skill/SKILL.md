@@ -1,12 +1,12 @@
 ---
-name: memery
+name: memewright
 description: Make a real, shareable meme image. Use when the user wants a meme, an image-macro, or a funny visual for marketing/social — anything where a caption goes on a known meme template (Drake, Distracted Boyfriend, Woman Yelling at Cat, etc.). Renders a finished PNG with correct font, outline, and text fitting.
 ---
 
-# Making memes with Memery
+# Making memes with Memewright
 
-Memery renders finished meme images from a template + a caption per box. You
-write the joke; Memery handles the typesetting. Do NOT try to draw memes with an
+Memewright renders finished meme images from a template + a caption per box. You
+write the joke; Memewright handles the typesetting. Do NOT try to draw memes with an
 image model — the text comes out warped. Use this tool.
 
 ## The loop
@@ -18,8 +18,8 @@ image model — the text comes out warped. Use this tool.
    joke into top/bottom text is the #1 mistake.
 
    ```bash
-   npx memery list --json
-   npx memery info drake-hotline-bling --json
+   npx memewright list --json
+   npx memewright info drake-hotline-bling --json
    ```
 
 2. **Write a caption for each box id.** Keep captions short and punchy — meme
@@ -28,16 +28,16 @@ image model — the text comes out warped. Use this tool.
 3. **Render.**
 
    ```bash
-   npx memery make drake-hotline-bling \
+   npx memewright make drake-hotline-bling \
      --set reject="writing the caption yourself" \
-     --set approve="letting memery render it" \
+     --set approve="letting memewright render it" \
      -o meme.png
    ```
 
    Or pass all captions as JSON:
 
    ```bash
-   npx memery make woman-yelling-at-cat \
+   npx memewright make woman-yelling-at-cat \
      --captions '{"woman":"you said it was done","cat":"the ci that failed 3 minutes ago"}' \
      -o meme.png
    ```

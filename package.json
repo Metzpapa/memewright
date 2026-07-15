@@ -1,12 +1,12 @@
 {
-  "name": "memery",
+  "name": "memewright",
   "version": "0.1.0",
   "description": "Agent-native meme rendering. Give it a template and captions; it renders a clean image-macro with proper fonts, bounding boxes, and auto-shrinking text.",
   "type": "module",
   "bin": {
-    "memery": "./src/cli.js",
-    "memery-mcp": "./src/mcp.js",
-    "memery-server": "./server/http.js"
+    "memewright": "./src/cli.js",
+    "memewright-mcp": "./src/mcp.js",
+    "memewright-server": "./server/http.js"
   },
   "main": "./src/index.js",
   "exports": {

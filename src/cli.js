@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 // CLI. Designed to be trivially drivable by a human OR an AI agent.
 //
-//   memery list [--json]
-//   memery info <slug> [--json]
-//   memery make <slug> --top "..." --bottom "..." -o out.png
-//   memery make <slug> --set reject="..." --set approve="..." -o out.png
-//   memery make <slug> --captions '{"top":"...","bottom":"..."}' -o out.png
+//   memewright list [--json]
+//   memewright info <slug> [--json]
+//   memewright make <slug> --top "..." --bottom "..." -o out.png
+//   memewright make <slug> --set reject="..." --set approve="..." -o out.png
+//   memewright make <slug> --captions '{"top":"...","bottom":"..."}' -o out.png
 //
 // `list` and `info` emit JSON with --json so an agent can discover templates,
 // their boxes, and what each meme means before rendering.
@@ -37,7 +37,7 @@ const [cmd, ...rest] = process.argv.slice(2);
 const args = parseArgs(rest);
 
 if (!cmd || cmd === 'help' || cmd === '--help' || cmd === '-h') {
-  console.log(`memery — render memes from templates + captions
+  console.log(`memewright — render memes from templates + captions
 
 Commands:
   list [--json]                 List templates (slug, boxes, meaning)
@@ -53,9 +53,9 @@ Caption options for \`make\`:
   --jpeg                        Encode JPEG instead of PNG
 
 Examples:
-  memery list --json
-  memery info drake-hotline-bling
-  memery make waiting-skeleton --top "me waiting" --bottom "for the fix" -o out.png`);
+  memewright list --json
+  memewright info drake-hotline-bling
+  memewright make waiting-skeleton --top "me waiting" --bottom "for the fix" -o out.png`);
   process.exit(0);
 }
 
@@ -68,7 +68,7 @@ if (cmd === 'list') {
 
 if (cmd === 'info') {
   const slug = args._[0];
-  if (!slug) die('usage: memery info <slug>');
+  if (!slug) die('usage: memewright info <slug>');
   let t;
   try { t = getTemplate(slug); } catch (e) { die(e.message); }
   const view = { slug, name: t.name, meaning: t.meaning, when_to_use: t.when_to_use, boxes: t.boxes };
@@ -80,13 +80,13 @@ if (cmd === 'info') {
 
 if (cmd === 'make') {
   const slug = args._[0];
-  if (!slug) die('usage: memery make <slug> [caption opts] -o out.png');
+  if (!slug) die('usage: memewright make <slug> [caption opts] -o out.png');
   let captions = { ...args.set };
   if (args.captions) {
     try { captions = { ...JSON.parse(args.captions), ...captions }; }
     catch { die('--captions must be valid JSON'); }
   }
-  if (Object.keys(captions).length === 0) die('no captions given; see `memery info ' + slug + '`');
+  if (Object.keys(captions).length === 0) die('no captions given; see `memewright info ' + slug + '`');
 
   let result;
   try { result = await renderMeme(getTemplate(slug), captions, { format: args.jpeg ? 'jpeg' : 'png' }); }
@@ -98,4 +98,4 @@ if (cmd === 'make') {
   process.exit(0);
 }
 
-die(`unknown command "${cmd}". Run \`memery help\`.`);
+die(`unknown command "${cmd}". Run \`memewright help\`.`);

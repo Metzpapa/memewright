@@ -1,6 +1,6 @@
 <div align="center">
 
-# Memery
+# Memewright
 
 **The open-source meme engine for AI agents.**
 
@@ -9,7 +9,7 @@ typeset image-macro — right font, proper outline, text that wraps and shrinks 
 fit. Drive it from a CLI, an MCP server, or three lines of code.
 
 Memes are one of the highest-performing formats in marketing, and agents can
-write the jokes. They just can't *render* them. Memery is the missing hands.
+write the jokes. They just can't *render* them. Memewright is the missing hands.
 
 </div>
 
@@ -22,18 +22,18 @@ caption, but it can't place text in the right spot, in the right font, outlined
 so it's legible, wrapped so it fits. So agents fall back to describing a meme in
 words, or generating a warped image where the text is gibberish.
 
-Memery is the rendering layer. The agent decides *what* the joke is; Memery
+Memewright is the rendering layer. The agent decides *what* the joke is; Memewright
 handles *how it looks* — pixel-correct, every time. The hard part is not drawing
 text on an image. It's the typesetting: fitting an unknown-length caption into a
 fixed box, wrapping it, and shrinking the font until it sits perfectly. That's
-what Memery does, on a library of templates that each know what they *mean*.
+what Memewright does, on a library of templates that each know what they *mean*.
 
 ## Quick start
 
 ```bash
 # no install needed
-npx memery list
-npx memery make waiting-skeleton \
+npx memewright list
+npx memewright make waiting-skeleton \
   --top "me waiting for the cleaner to flag the damage" \
   --bottom "before the next guest checks in" \
   -o meme.png
@@ -43,14 +43,14 @@ That's a finished, shareable PNG. No watermark, no dragging text boxes.
 
 ## Use it from an AI agent (MCP)
 
-Memery ships an [MCP](https://modelcontextprotocol.io) server so any agent
+Memewright ships an [MCP](https://modelcontextprotocol.io) server so any agent
 (Claude, Cursor, your own) can make memes as tool calls:
 
 ```jsonc
 // add to your MCP client config
 {
   "mcpServers": {
-    "memery": { "command": "npx", "args": ["memery-mcp"] }
+    "memewright": { "command": "npx", "args": ["memewright-mcp"] }
   }
 }
 ```
@@ -71,7 +71,7 @@ forcing every joke into top/bottom text.
 ## Use it from code
 
 ```js
-import { makeMeme } from 'memery';
+import { makeMeme } from 'memewright';
 import fs from 'node:fs';
 
 const { buffer } = await makeMeme('drake-hotline-bling', {
@@ -107,19 +107,19 @@ marketing actually land.
 
 ## How the text fitting works
 
-For each caption, Memery finds the largest font size at which the text both wraps
+For each caption, Memewright finds the largest font size at which the text both wraps
 inside the box width *and* fits the box height, shrinking the font (and
 hard-wrapping over-long words) until it does. White fill, black outline, all-caps
 by default — the image-macro standard — with per-box overrides for panels that
 need dark text on light backgrounds (Drake, Expanding Brain, UNO).
 
-Fonts: Memery bundles [Anton](https://fonts.google.com/specimen/Anton) (SIL Open
+Fonts: Memewright bundles [Anton](https://fonts.google.com/specimen/Anton) (SIL Open
 Font License), the open substitute for Impact, so the package is legally
 self-contained. Have Impact and prefer it? Register it and pass `{ font: "Impact" }`.
 
 ## Self-host / hosted
 
-Memery is AGPL-3.0 and fully self-hostable — the CLI, the MCP server, and the
+Memewright is AGPL-3.0 and fully self-hostable — the CLI, the MCP server, and the
 library are the whole thing; run them anywhere Node runs. A hosted cloud (web
 editor, brand kits, auto-posting, the trending-meme database) is the planned
 commercial layer, but the engine is and stays open source.

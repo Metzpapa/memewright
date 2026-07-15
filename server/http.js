@@ -2,7 +2,7 @@
 // Minimal self-hostable HTTP server: a JSON template API, a /render endpoint,
 // and the static browser playground. No web framework — Node built-ins only.
 //
-//   npx memery-server          # then open http://localhost:8787
+//   npx memewright-server          # then open http://localhost:8787
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -56,4 +56,4 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => console.log(`Memery playground on http://localhost:${PORT}`));
+server.listen(PORT, () => console.log(`Memewright playground on http://localhost:${PORT}`));
