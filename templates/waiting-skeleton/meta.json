@@ -1,0 +1,28 @@
+{
+  "name": "Waiting Skeleton",
+  "file": "image.jpg",
+  "meaning": "Waiting so long that you died and decomposed. For a thing you will wait on indefinitely, or that never comes. The humor is futility, not a short delay.",
+  "when_to_use": "Setup names something you are \"still waiting\" for that chronically never happens.",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.04,
+      "y": 0.015,
+      "w": 0.92,
+      "h": 0.2,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.04,
+      "y": 0.78,
+      "w": 0.92,
+      "h": 0.2,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

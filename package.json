@@ -1,0 +1,40 @@
+{
+  "name": "memery",
+  "version": "0.1.0",
+  "description": "Agent-native meme rendering. Give it a template and captions; it renders a clean image-macro with proper fonts, bounding boxes, and auto-shrinking text.",
+  "type": "module",
+  "bin": {
+    "memery": "./src/cli.js",
+    "memery-mcp": "./src/mcp.js",
+    "memery-server": "./server/http.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "files": [
+    "src",
+    "templates",
+    "assets"
+  ],
+  "keywords": [
+    "meme",
+    "meme-generator",
+    "image-macro",
+    "agent",
+    "ai",
+    "mcp",
+    "cli",
+    "canvas",
+    "marketing"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@napi-rs/canvas": "^0.1.65",
+    "zod": "^4.4.3"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Left Exit 12 Off Ramp",
+  "file": "image.jpg",
+  "meaning": "A car swerves hard across lines to take an exit at the last second. For abandoning the sensible path for a tempting bad one.",
+  "when_to_use": "straight = the sensible option (left sign); exit = the tempting option being swerved toward (right sign); car = the decider (bottom).",
+  "boxes": [
+    {
+      "id": "straight",
+      "x": 0.05,
+      "y": 0.05,
+      "w": 0.36,
+      "h": 0.16
+    },
+    {
+      "id": "exit",
+      "x": 0.55,
+      "y": 0.05,
+      "w": 0.36,
+      "h": 0.16
+    },
+    {
+      "id": "car",
+      "x": 0.3,
+      "y": 0.8,
+      "w": 0.4,
+      "h": 0.14,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

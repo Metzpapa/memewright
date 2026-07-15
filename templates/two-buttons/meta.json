@@ -1,0 +1,44 @@
+{
+  "name": "Two Buttons",
+  "file": "image.jpg",
+  "meaning": "A sweating man agonizes over two buttons he cannot choose between. For an impossible or self-contradictory choice.",
+  "when_to_use": "button1 and button2 are two options that are hard to choose between (often contradictory). label = the sweating decider (bottom).",
+  "boxes": [
+    {
+      "id": "button1",
+      "x": 0.1,
+      "y": 0.055,
+      "w": 0.34,
+      "h": 0.1,
+      "style": {
+        "color": "#000000",
+        "stroke": null,
+        "allCaps": true,
+        "valign": "middle"
+      }
+    },
+    {
+      "id": "button2",
+      "x": 0.4,
+      "y": 0.155,
+      "w": 0.34,
+      "h": 0.1,
+      "style": {
+        "color": "#000000",
+        "stroke": null,
+        "allCaps": true,
+        "valign": "middle"
+      }
+    },
+    {
+      "id": "label",
+      "x": 0.04,
+      "y": 0.86,
+      "w": 0.92,
+      "h": 0.12,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

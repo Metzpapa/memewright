@@ -1,0 +1,57 @@
+{
+  "name": "Boardroom Meeting Suggestion",
+  "file": "image.jpg",
+  "meaning": "A boss asks a room for ideas; after two reasonable answers, the third person gives a blunt truth and gets thrown out the window. For a truth nobody wants to hear.",
+  "when_to_use": "prompt = the boss question (top). r1, r2 = safe answers. r3 = the blunt truth that gets you defenestrated.",
+  "boxes": [
+    {
+      "id": "prompt",
+      "x": 0.06,
+      "y": 0.01,
+      "w": 0.88,
+      "h": 0.1,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "r1",
+      "x": 0.3,
+      "y": 0.4,
+      "w": 0.22,
+      "h": 0.09,
+      "style": {
+        "color": "#000000",
+        "stroke": null,
+        "allCaps": true,
+        "valign": "middle"
+      }
+    },
+    {
+      "id": "r2",
+      "x": 0.06,
+      "y": 0.55,
+      "w": 0.22,
+      "h": 0.09,
+      "style": {
+        "color": "#000000",
+        "stroke": null,
+        "allCaps": true,
+        "valign": "middle"
+      }
+    },
+    {
+      "id": "r3",
+      "x": 0.3,
+      "y": 0.55,
+      "w": 0.22,
+      "h": 0.09,
+      "style": {
+        "color": "#000000",
+        "stroke": null,
+        "allCaps": true,
+        "valign": "middle"
+      }
+    }
+  ]
+}

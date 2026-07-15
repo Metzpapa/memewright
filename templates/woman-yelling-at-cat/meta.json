@@ -1,0 +1,28 @@
+{
+  "name": "Woman Yelling at Cat",
+  "file": "image.jpg",
+  "meaning": "Left: a woman screams and points, furious. Right: a white cat (Smudge) sits at a dinner plate looking smug and unbothered. For an accusation met with total, blase indifference.",
+  "when_to_use": "woman = the angry accusation/complaint (left panel); cat = the smug, unbothered reply (right panel).",
+  "boxes": [
+    {
+      "id": "woman",
+      "x": 0.02,
+      "y": 0.03,
+      "w": 0.46,
+      "h": 0.22,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "cat",
+      "x": 0.52,
+      "y": 0.03,
+      "w": 0.46,
+      "h": 0.22,
+      "style": {
+        "valign": "top"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memery — meme playground</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0e0f11; color: #e8e8ea; display: grid; place-items: start center; padding: 32px 16px 64px;
+  }
+  .wrap { width: 100%; max-width: 880px; }
+  header { text-align: center; margin-bottom: 28px; }
+  h1 { font-size: 34px; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h1 span { color: #7cc4ff; }
+  .sub { color: #9aa0a6; margin: 0; }
+  .panel { background: #17191c; border: 1px solid #24272c; border-radius: 14px; padding: 20px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+  label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: #9aa0a6; margin: 14px 0 6px; }
+  select, input {
+    width: 100%; padding: 10px 12px; background: #0e0f11; border: 1px solid #2b2f35;
+    border-radius: 9px; color: #e8e8ea; font-size: 15px;
+  }
+  select:focus, input:focus { outline: none; border-color: #7cc4ff; }
+  .meaning { font-size: 13px; color: #9aa0a6; margin: 12px 0 0; min-height: 34px; }
+  button {
+    margin-top: 18px; width: 100%; padding: 12px; border: 0; border-radius: 9px;
+    background: #7cc4ff; color: #06121d; font-weight: 700; font-size: 15px; cursor: pointer;
+  }
+  button:hover { background: #9ad2ff; }
+  .preview { display: grid; place-items: center; min-height: 300px; background: #0e0f11; border-radius: 10px; border: 1px dashed #2b2f35; padding: 12px; }
+  .preview img { max-width: 100%; border-radius: 6px; }
+  .preview .empty { color: #5c6169; font-size: 14px; }
+  a.dl { display: none; text-align: center; margin-top: 12px; color: #7cc4ff; text-decoration: none; font-size: 14px; }
+  footer { text-align: center; color: #5c6169; font-size: 13px; margin-top: 26px; }
+  code { background: #0e0f11; padding: 2px 6px; border-radius: 5px; color: #b7e0ff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span>Memery</span> playground</h1>
+    <p class="sub">Pick a template, caption each box, render. The same engine your agent calls.</p>
+  </header>
+
+  <div class="panel grid">
+    <div>
+      <label for="tpl">Template</label>
+      <select id="tpl"></select>
+      <p class="meaning" id="meaning"></p>
+      <div id="boxes"></div>
+      <button id="render">Render meme</button>
+    </div>
+    <div>
+      <div class="preview"><span class="empty" id="empty">your meme appears here</span><img id="out" alt="" hidden></div>
+      <a class="dl" id="dl" download="meme.png">Download PNG</a>
+    </div>
+  </div>
+
+  <footer>Self-hosted with <code>npx memery-server</code> · agent tools via <code>npx memery-mcp</code></footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let current = null;
+
+async function loadTemplates() {
+  const list = await (await fetch('/api/templates')).json();
+  $('tpl').innerHTML = list.map(t => `<option value="${t.slug}">${t.slug}</option>`).join('');
+  await loadTemplate(list[0].slug);
+}
+
+async function loadTemplate(slug) {
+  current = await (await fetch('/api/template?slug=' + encodeURIComponent(slug))).json();
+  $('meaning').textContent = current.meaning;
+  $('boxes').innerHTML = current.boxes.map(b => `
+    <label for="box-${b.id}">${b.id.replace(/_/g,' ')}</label>
+    <input id="box-${b.id}" data-box="${b.id}" placeholder="caption for ${b.id}">
+  `).join('');
+}
+
+async function render() {
+  const captions = {};
+  document.querySelectorAll('[data-box]').forEach(i => { if (i.value.trim()) captions[i.dataset.box] = i.value.trim(); });
+  const res = await fetch('/api/render', {
+    method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ slug: current.slug, captions }),
+  });
+  if (!res.ok) { alert('render failed'); return; }
+  const url = URL.createObjectURL(await res.blob());
+  $('out').src = url; $('out').hidden = false; $('empty').style.display = 'none';
+  $('dl').href = url; $('dl').style.display = 'block';
+}
+
+$('tpl').addEventListener('change', e => loadTemplate(e.target.value));
+$('render').addEventListener('click', render);
+loadTemplates();
+</script>
+</body>
+</html>

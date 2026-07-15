@@ -1,0 +1,28 @@
+{
+  "name": "Running Away Balloon",
+  "file": "image.jpg",
+  "meaning": "A person reaches longingly for a balloon floating away. Labeled balloons/figures represent what someone wants versus what holds them back.",
+  "when_to_use": "want = the balloon drifting away (top); person = who reaches for it (bottom-left). Simple two-label version.",
+  "boxes": [
+    {
+      "id": "want",
+      "x": 0.48,
+      "y": 0.04,
+      "w": 0.48,
+      "h": 0.14,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "person",
+      "x": 0.04,
+      "y": 0.8,
+      "w": 0.46,
+      "h": 0.16,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

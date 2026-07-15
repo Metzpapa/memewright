@@ -1,0 +1,21 @@
+{
+  "name": "Change My Mind",
+  "file": "image.jpg",
+  "meaning": "A man at a table with a sign inviting debate. For stating a controversial or cheeky opinion as settled fact.",
+  "when_to_use": "sign = the hot take. Text sits on the sign in dark type.",
+  "boxes": [
+    {
+      "id": "sign",
+      "x": 0.3,
+      "y": 0.6,
+      "w": 0.44,
+      "h": 0.22,
+      "style": {
+        "color": "#000000",
+        "stroke": null,
+        "allCaps": true,
+        "valign": "middle"
+      }
+    }
+  ]
+}

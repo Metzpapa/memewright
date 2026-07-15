@@ -1,0 +1,28 @@
+{
+  "name": "X, X Everywhere",
+  "file": "image.jpg",
+  "meaning": "Buzz shows Woody that a thing is absolutely everywhere. For something so pervasive you cannot escape it.",
+  "when_to_use": "Top = the thing; bottom = \"[thing] everywhere\". Works for anything ubiquitous or inescapable.",
+  "boxes": [
+    {
+      "id": "top",
+      "x": 0.04,
+      "y": 0.03,
+      "w": 0.92,
+      "h": 0.15,
+      "style": {
+        "valign": "top"
+      }
+    },
+    {
+      "id": "bottom",
+      "x": 0.04,
+      "y": 0.8,
+      "w": 0.92,
+      "h": 0.16,
+      "style": {
+        "valign": "bottom"
+      }
+    }
+  ]
+}

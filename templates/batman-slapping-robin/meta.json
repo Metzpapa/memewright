@@ -1,0 +1,22 @@
+{
+  "name": "Batman Slapping Robin",
+  "file": "image.jpg",
+  "meaning": "Robin starts to say something and Batman slaps him mid-sentence. For shutting down a bad take immediately.",
+  "when_to_use": "robin = the naive/wrong statement (left); batman = the slapping correction (right).",
+  "boxes": [
+    {
+      "id": "robin",
+      "x": 0.03,
+      "y": 0.04,
+      "w": 0.42,
+      "h": 0.44
+    },
+    {
+      "id": "batman",
+      "x": 0.52,
+      "y": 0.04,
+      "w": 0.44,
+      "h": 0.44
+    }
+  ]
+}

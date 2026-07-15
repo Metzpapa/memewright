@@ -1,0 +1,29 @@
+{
+  "name": "Distracted Boyfriend",
+  "file": "image.jpg",
+  "meaning": "A man walking with his girlfriend turns to check out another woman. For being tempted away from what you have by something new.",
+  "when_to_use": "boyfriend = you/the tempted party (center); girlfriend = the current thing (right); other_woman = the tempting new thing (left).",
+  "boxes": [
+    {
+      "id": "other_woman",
+      "x": 0.02,
+      "y": 0.55,
+      "w": 0.26,
+      "h": 0.16
+    },
+    {
+      "id": "boyfriend",
+      "x": 0.4,
+      "y": 0.42,
+      "w": 0.3,
+      "h": 0.16
+    },
+    {
+      "id": "girlfriend",
+      "x": 0.73,
+      "y": 0.46,
+      "w": 0.25,
+      "h": 0.16
+    }
+  ]
+}
