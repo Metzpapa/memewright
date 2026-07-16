@@ -22,6 +22,7 @@ function parseArgs(argv) {
     else if (a === '--top') args.set.top = argv[++i];
     else if (a === '--bottom') args.set.bottom = argv[++i];
     else if (a === '--captions') args.captions = argv[++i];
+    else if (a === '--scale') args.scale = Number(argv[++i]) || 1;
     else if (a === '--set') {
       const kv = argv[++i] || '';
       const eq = kv.indexOf('=');
@@ -105,7 +106,7 @@ if (cmd === 'make') {
   if (Object.keys(captions).length === 0) die('no captions given; see `memewright info ' + slug + '`');
 
   let result;
-  try { result = await renderMeme(getTemplate(slug), captions, { format: args.jpeg ? 'jpeg' : 'png', images: args.images }); }
+  try { result = await renderMeme(getTemplate(slug), captions, { format: args.jpeg ? 'jpeg' : 'png', images: args.images, scale: args.scale }); }
   catch (e) { die(e.message); }
 
   for (const w of result.warnings) console.error('warning: ' + w);

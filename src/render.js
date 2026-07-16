@@ -28,18 +28,24 @@ function resolveBox(box, imgW, imgH) {
   };
 }
 
-function drawCaption(ctx, text, box, style, imgH) {
+function drawCaption(ctx, text, box, style, scale = 1) {
   const s = { ...STYLE_DEFAULTS, ...style };
   const font = resolveFont(style.font || DEFAULT_FONT);
   const px = resolveBox(box, ctx.canvas.width, ctx.canvas.height);
   const pad = Math.min(px.w, px.h) * s.padding;
   const inner = { w: px.w - 2 * pad, h: px.h - 2 * pad };
 
+  // Absolute font caps (imgflip font_max_size) are expressed in the template's
+  // native pixels, so they must scale with the supersample factor or the text
+  // shrinks relative to the image when rendering at scale > 1.
+  const maxFontPx = s.maxFontPx != null ? s.maxFontPx * scale : Infinity;
+  const minFontPx = s.minFontPx * scale;
+
   const value = s.allCaps ? String(text).toUpperCase() : String(text);
   const { fontSize, lines, lineHeight, overflow } = fitText(ctx, value, inner, {
     font,
-    maxFontSize: Math.min(inner.h * s.maxFontFrac, s.maxFontPx ?? Infinity),
-    minFontSize: s.minFontPx,
+    maxFontSize: Math.min(inner.h * s.maxFontFrac, maxFontPx),
+    minFontSize: minFontPx,
     lineHeight: s.lineHeight,
   });
 
@@ -105,14 +111,21 @@ async function drawOverlay(ctx, spec) {
  * Render a meme.
  * @param {object} template  { image (Buffer|path|Image), boxes: [...] }
  * @param {object|Array} captions  map of boxId -> text, or array in box order
- * @param {object} [opts] { format, quality, images: [{src,x,y,w,rotation,opacity,layer}] }
+ * @param {object} [opts] { format, quality, scale, images: [{src,x,y,w,rotation,opacity,layer}] }
+ *   scale: supersample factor (default 1). Because captions and image overlays
+ *   are typeset/composited from high-res sources but many meme templates are only
+ *   ~600-1200px, rendering at scale > 1 keeps text and logos crisp when the meme
+ *   is viewed large; only the underlying photo is limited by its own resolution.
  * @returns {Promise<{ buffer: Buffer, warnings: string[] }>}
  */
 export async function renderMeme(template, captions, opts = {}) {
   const img = await loadImage(template.image);
-  const canvas = createCanvas(img.width, img.height);
+  const scale = Math.max(1, opts.scale || 1);
+  const canvas = createCanvas(Math.round(img.width * scale), Math.round(img.height * scale));
   const ctx = canvas.getContext('2d');
-  ctx.drawImage(img, 0, 0, img.width, img.height);
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
+  ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
   const warnings = [];
   const boxes = template.boxes || [];
@@ -127,7 +140,7 @@ export async function renderMeme(template, captions, opts = {}) {
       ? captions[i]
       : (captions[box.id] ?? captions[box.name]);
     if (text == null || text === '') return; // empty box is allowed
-    const { overflow } = drawCaption(ctx, text, box, box.style || {}, img.height);
+    const { overflow } = drawCaption(ctx, text, box, box.style || {}, scale);
     if (overflow) warnings.push(`Caption "${box.id}" is long; rendered at minimum size.`);
   });
 
