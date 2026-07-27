@@ -42,5 +42,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The speech bubble already says \"THIS IS FINE.\" Only caption the left box (the situation). Do not restate the punchline."
 }

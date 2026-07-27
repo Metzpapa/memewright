@@ -88,9 +88,9 @@ if (cmd === 'info') {
   if (!slug) die('usage: memewright info <slug>');
   let t;
   try { t = getTemplate(slug); } catch (e) { die(e.message); }
-  const view = { slug, name: t.name, meaning: t.meaning, when_to_use: t.when_to_use, boxes: t.boxes };
+  const view = { slug, name: t.name, meaning: t.meaning, when_to_use: t.when_to_use, ...(t.baked_in_text ? { baked_in_text: t.baked_in_text } : {}), boxes: t.boxes };
   if (args.json) { console.log(JSON.stringify(view, null, 2)); process.exit(0); }
-  console.log(`${t.name} (${slug})\n\n${t.meaning}\n\nWhen to use: ${t.when_to_use}\n\nBoxes:`);
+  console.log(`${t.name} (${slug})\n\n${t.meaning}\n\nWhen to use: ${t.when_to_use}${t.baked_in_text ? `\n\nBaked-in text: ${t.baked_in_text}` : ''}\n\nBoxes:`);
   for (const b of t.boxes) console.log(`  ${b.id}`);
   process.exit(0);
 }

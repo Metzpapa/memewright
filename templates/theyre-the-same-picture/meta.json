@@ -57,5 +57,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already contains the joke text: the top panel is subtitled \"Corporate needs you to find the differences between this picture and this picture.\" and the bottom (Pam) panel is subtitled \"They're the same picture.\" Your captions only NAME the two things on the white cards (text1/text2, e.g. \"The check-in photo\" / \"The check-out photo\"). Leave text3 empty. Do not restate the baked-in lines."
 }
