@@ -1,0 +1,11 @@
+{
+  "name": "Peter Parker's Glasses",
+  "file": "image.jpg",
+  "imgflip": { "id": "173628280", "url": "https://i.imgflip.com/2vdgfs.png", "width": 480, "height": 448 },
+  "meaning": "Peter Parker holds glasses away (top), then puts them on and sees clearly (bottom). For a detail or truth that only becomes visible when you actually look closely.",
+  "when_to_use": "top = what things look like without looking closely (the fuzzy/naive view); bottom = what you see once you actually look.",
+  "boxes": [
+    { "id": "top", "x": 0.5061, "y": 0.0109, "w": 0.4837, "h": 0.4883, "style": { "strokeRatio": 0.1, "valign": "top", "maxFontPx": 50 } },
+    { "id": "bottom", "x": 0.5000, "y": 0.5269, "w": 0.4898, "h": 0.4446, "style": { "strokeRatio": 0.1, "valign": "bottom", "maxFontPx": 50 } }
+  ]
+}

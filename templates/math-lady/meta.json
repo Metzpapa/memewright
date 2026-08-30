@@ -1,0 +1,11 @@
+{
+  "name": "Math Lady / Confused Lady",
+  "file": "image.jpg",
+  "imgflip": { "id": "80996545", "url": "https://i.imgflip.com/1c81c1.jpg", "width": 681, "height": 445 },
+  "meaning": "Four panels of a woman looking baffled while math equations float around her. For futile mental calculation and utter confusion at something that should be simple.",
+  "when_to_use": "top = the confusing situation being computed (or leave one box empty and use a single caption). Do not restate the confusion; the face and equations are the joke.",
+  "boxes": [
+    { "id": "top", "x": 0.05, "y": 0.03, "w": 0.90, "h": 0.28, "style": { "valign": "top" } },
+    { "id": "bottom", "x": 0.05, "y": 0.69, "w": 0.90, "h": 0.28, "style": { "valign": "bottom" } }
+  ]
+}
