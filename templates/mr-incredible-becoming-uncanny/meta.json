@@ -1,0 +1,12 @@
+{
+  "name": "Mr Incredible Becoming Uncanny",
+  "file": "image.jpg",
+  "meaning": "Mr. Incredible's face degrades over four panels from his normal confident self into a horrifying skeletal husk. For a situation that gets progressively more dreadful with each stage, ending in total doom.",
+  "when_to_use": "Escalating dread with a hard endpoint: each caption is a stage of the same situation getting worse, and the last stage should be the point of no return.",
+  "boxes": [
+    { "id": "text1", "x": 0.33, "y": 0.01, "w": 0.64, "h": 0.23, "style": { "font": "Arial", "allCaps": false, "stroke": "#000000", "maxFontPx": 56 } },
+    { "id": "text2", "x": 0.33, "y": 0.26, "w": 0.64, "h": 0.23, "style": { "font": "Arial", "allCaps": false, "stroke": "#000000", "maxFontPx": 56 } },
+    { "id": "text3", "x": 0.33, "y": 0.51, "w": 0.64, "h": 0.23, "style": { "font": "Arial", "allCaps": false, "stroke": "#000000", "maxFontPx": 56 } },
+    { "id": "text4", "x": 0.33, "y": 0.76, "w": 0.64, "h": 0.23, "style": { "font": "Arial", "allCaps": false, "stroke": "#000000", "maxFontPx": 56 } }
+  ]
+}

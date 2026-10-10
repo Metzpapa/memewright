@@ -1,0 +1,10 @@
+{
+  "name": "Ight Imma Head Out",
+  "file": "image.jpg",
+  "meaning": "SpongeBob rises wearily from his armchair saying \"ight imma head out\". For noping out of a situation the moment it asks anything of you; abrupt, unapologetic departure.",
+  "when_to_use": "Caption names the trigger (usually 'X when Y'); the baked-in line is SpongeBob leaving in response. The joke is how little it takes for him to leave.",
+  "baked_in_text": ["IGHT IMMA HEAD OUT"],
+  "boxes": [
+    { "id": "top", "x": 0.04, "y": 0.02, "w": 0.92, "h": 0.26, "style": { "valign": "top" } }
+  ]
+}
