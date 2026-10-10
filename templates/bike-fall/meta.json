@@ -7,8 +7,8 @@
     "width": 500,
     "height": 680
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A cyclist rides along, shoves a stick into his own front wheel, then lies on the ground blaming something else. For self-inflicted problems blamed on someone or something else.",
+  "when_to_use": "text1 = who is riding along fine (top panel). text2 = the self-sabotaging action, the stick in the wheel (middle panel). text3 = the person on the ground blaming something else (bottom panel); that misplaced blame is the punchline.",
   "boxes": [
     {
       "id": "text1",

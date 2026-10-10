@@ -7,8 +7,8 @@
     "width": 916,
     "height": 900
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A text template above a close-up of a terrified Squidward. For facing an opponent so strong or skilled that you have already lost.",
+  "when_to_use": "left = the competition (between \"when I'm in a\" and \"competition and my\"). right = the opponent (after \"opponent is\"). The opponent is the punchline.",
   "boxes": [
     {
       "id": "left",
@@ -35,5 +35,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already reads \"when I'm in a\" / \"competition and my\" / \"opponent is\". Captions fill in the blanks only."
 }

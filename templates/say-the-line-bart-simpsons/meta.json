@@ -7,8 +7,8 @@
     "width": 395,
     "height": 650
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A classroom urges Bart to say his catchphrase; he reluctantly says it and everyone cheers. For a predictable line someone always says, delivered on demand.",
+  "when_to_use": "text1 = the crowd's demand, \"say the line, [name]!\" (top panel). text2 = the reluctant delivery of the catchphrase (on Bart, middle). text3 = the crowd going wild (bottom panel).",
   "boxes": [
     {
       "id": "text1",

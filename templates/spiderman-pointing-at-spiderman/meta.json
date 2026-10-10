@@ -7,8 +7,8 @@
     "width": 800,
     "height": 450
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Two identical Spider-Men point at each other. For two things that are the same, or someone calling out another for what they do themselves.",
+  "when_to_use": "left = the first thing (left Spider-Man). right = the second thing (right Spider-Man).",
   "boxes": [
     {
       "id": "left",

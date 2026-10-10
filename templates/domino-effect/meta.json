@@ -7,8 +7,8 @@
     "width": 820,
     "height": 565
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A man tips the smallest domino in a row that grows to giant slabs. For a tiny action that sets off a chain ending in something huge.",
+  "when_to_use": "bottom = the small trigger (on the tiny dominoes, near the hand). top = the huge consequence it eventually causes (on the biggest domino, top left). The top is the punchline.",
   "boxes": [
     {
       "id": "top",

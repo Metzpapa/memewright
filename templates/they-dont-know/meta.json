@@ -7,8 +7,8 @@
     "width": 671,
     "height": 673
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A lonely figure in a party hat stands in the corner of a party, thinking to himself. For a secret thing you are quietly proud of that nobody else knows.",
+  "when_to_use": "top = \"They don't know [thing]\" (in the thought space beside the figure). bottom = optional, a label for the party crowd.",
   "boxes": [
     {
       "id": "top",

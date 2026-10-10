@@ -7,8 +7,8 @@
     "width": 429,
     "height": 343
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Drake rejects the top option and approves the bottom option, in a bordered two-panel layout. For preferring one thing over another.",
+  "when_to_use": "top = the worse option; bottom = the better option. Text sits in the white boxes on the right.",
   "boxes": [
     {
       "id": "top",

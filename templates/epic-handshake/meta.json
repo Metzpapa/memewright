@@ -7,8 +7,8 @@
     "width": 900,
     "height": 645
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Two muscular arms clasp in a dramatic arm-wrestling handshake. For two different groups or things that agree on, or share, one common thing.",
+  "when_to_use": "text2 = the first party (left arm). text3 = the second party (right arm). text1 = the thing they have in common (on the clasped hands, top).",
   "boxes": [
     {
       "id": "text1",

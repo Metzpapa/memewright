@@ -7,8 +7,8 @@
     "width": 540,
     "height": 440
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A soldier shields a sleeping child from flying weapons, burning and bleeding. For someone taking all the hits to protect someone else.",
+  "when_to_use": "text1 = the incoming attacks (top left, weapons flying in). text2 = the protector (on the soldier). text3 = the protected one (on the sleeping child).",
   "boxes": [
     {
       "id": "text1",

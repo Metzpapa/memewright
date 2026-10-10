@@ -7,8 +7,8 @@
     "width": 750,
     "height": 750
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Bernie Sanders in a winter parka addresses the camera with the subtitle \"I am once again asking\". For making the same request yet again.",
+  "when_to_use": "top = optional, context for who is asking (upper left). bottom = the request that completes the subtitle, e.g. \"for you to [thing]\" (directly under the subtitle). Keep bottom short; the subtitle box is small.",
   "boxes": [
     {
       "id": "top",
@@ -39,5 +39,6 @@
         "maxFontPx": 26
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already has the subtitle \"I am once again asking\" near the bottom. The bottom caption completes that sentence; do not repeat it."
 }

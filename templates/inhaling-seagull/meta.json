@@ -7,8 +7,8 @@
     "width": 1269,
     "height": 2825
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A seagull calmly perches, then inhales deeper and deeper before screaming, drawn in red. For building frustration that explodes into a scream.",
+  "when_to_use": "text1 = the calm starting statement (top panel). text2 = continuing (second panel). text3 = a short word as the inhale peaks (third panel, small). text4 = the screamed punchline (bottom red panel), often all caps.",
   "boxes": [
     {
       "id": "text1",

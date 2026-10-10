@@ -7,8 +7,8 @@
     "width": 510,
     "height": 572
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A pitchman shows a tank gushing water through a hole, then slaps a strip of tape over it. For a quick patch slapped over a serious problem.",
+  "when_to_use": "text1 = the problem, the leaking hole (on the tank, top right). text2 = the quick fix, the tape (on the hand, bottom). text3 = who applies the fix (on the pitchman, top left).",
   "boxes": [
     {
       "id": "text1",

@@ -7,8 +7,8 @@
     "width": 598,
     "height": 420
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Squidward watches from his window as SpongeBob and Patrick play happily outside. For watching others have fun while you feel left out or envious.",
+  "when_to_use": "left = the watcher (Squidward, left). right = the people having fun (SpongeBob and Patrick, right).",
   "boxes": [
     {
       "id": "left",

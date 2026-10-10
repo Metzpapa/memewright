@@ -7,8 +7,8 @@
     "width": 700,
     "height": 325
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Kermit faces a hooded, dark version of himself that whispers temptations. For your inner voice urging you to do the bad thing.",
+  "when_to_use": "top = the normal self or the situation (\"me:\"). bottom = the dark self's temptation (\"me inside:\" followed by the bad idea). The temptation is the punchline.",
   "boxes": [
     {
       "id": "top",

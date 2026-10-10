@@ -7,8 +7,8 @@
     "width": 619,
     "height": 403
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A Simpsons character wearily resets a workplace safety sign back to \"0 DAYS WITHOUT\". For a streak broken yet again, or a mistake that keeps happening no matter what.",
+  "when_to_use": "top = the thing that just happened again; it sits on the sign right after \"DAYS WITHOUT\", so it reads as one line (e.g. \"an accident\"). bottom = optional, a short note on who or what reset it (lower left).",
   "boxes": [
     {
       "id": "top",
@@ -35,5 +35,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The sign already reads \"DAYS WITHOUT\" and both counter cards already show \"0\". The top caption only names the thing; do not restate the zero."
 }

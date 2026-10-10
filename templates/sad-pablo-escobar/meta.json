@@ -7,8 +7,8 @@
     "width": 720,
     "height": 709
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Pablo Escobar sits alone on a swing, then at a table, then stands by an empty pool, looking bored and lonely. For waiting forever or feeling alone when something you expected does not happen.",
+  "when_to_use": "text1 = the situation (top panel, wide). text2 and text3 = continuing the lonely wait (bottom left, bottom right).",
   "boxes": [
     {
       "id": "text1",

@@ -7,8 +7,8 @@
     "width": 552,
     "height": 414
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Fry squints in suspicion. For being unable to tell which of two explanations is true.",
+  "when_to_use": "top = \"Not sure if [option A]\". bottom = \"or [option B]\". The second possibility is the punchline.",
   "boxes": [
     {
       "id": "top",

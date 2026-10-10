@@ -7,8 +7,8 @@
     "width": 580,
     "height": 282
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A cartoon dog sits calmly at a table sipping coffee while the room is on fire. For denial: pretending everything is okay while things fall apart.",
+  "when_to_use": "left = the situation that is on fire (top of the left panel). right = leave empty; the speech bubble already says the punchline.",
   "boxes": [
     {
       "id": "left",

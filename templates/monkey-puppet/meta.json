@@ -7,8 +7,8 @@
     "width": 923,
     "height": 768
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A monkey puppet glances sideways, then looks away awkwardly. For pretending you did not see something uncomfortable or being caught out.",
+  "when_to_use": "top = the awkward situation (white space at the top). bottom = optional extra line (narrow white strip). The puppet's side-eye is the reaction.",
   "boxes": [
     {
       "id": "top",

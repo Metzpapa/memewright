@@ -7,8 +7,8 @@
     "width": 640,
     "height": 881
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A mannequin head panics, then calms down, then panics again. For a problem, a reassuring development, and then a twist that makes it worse.",
+  "when_to_use": "text1 = the alarming situation (top left). text2 = the reassuring development (middle left). text3 = the twist that brings the panic back (bottom left).",
   "boxes": [
     {
       "id": "text1",
@@ -55,5 +55,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The right column already labels the three faces \"Panik\", \"Kalm\", \"Panik\". Captions go only in the left column; do not restate those labels."
 }

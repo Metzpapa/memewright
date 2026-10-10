@@ -7,8 +7,8 @@
     "width": 1893,
     "height": 1893
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Pikachu with a shocked, open-mouthed face. For acting surprised at an obvious, completely predictable outcome.",
+  "when_to_use": "text1 = the action (top line). text2 = the predictable consequence (second line). text3 = the reaction, \"[me]:\" (third line). Pikachu's face is the punchline.",
   "boxes": [
     {
       "id": "text1",

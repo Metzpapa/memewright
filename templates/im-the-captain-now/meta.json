@@ -7,8 +7,8 @@
     "width": 478,
     "height": 350
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A Somali pirate from Captain Phillips says \"look at me, I'm the captain now\". For seizing control from someone who used to have it.",
+  "when_to_use": "top = \"Look at me\". bottom = \"I'm the [new boss] now\". The role reversal is the punchline.",
   "boxes": [
     {
       "id": "top",

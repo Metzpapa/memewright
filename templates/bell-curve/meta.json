@@ -7,8 +7,8 @@
     "width": 675,
     "height": 499
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "An IQ bell curve: a simple character at the low end, a crying, overthinking nerd in the middle, and a calm hooded sage at the high end. For a take where the simplest and the wisest people agree and the middle overcomplicates it.",
+  "when_to_use": "text1 = the simple take (left, low end). text2 = the anxious, overcomplicated objection from the middle (top center). text3 = the same simple take as text1, now from the sage (right, high end). Repeating text1 in text3 is the joke.",
   "boxes": [
     {
       "id": "text1",

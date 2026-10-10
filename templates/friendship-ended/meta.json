@@ -7,8 +7,8 @@
     "width": 800,
     "height": 600
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A man poses with his new best friend, photos of the old friend crossed out, under rainbow text. For dramatically replacing one thing with another.",
+  "when_to_use": "left = the old thing being dropped (covers the old name after \"Friendship ended with\", top right). right = the new favorite (covers the new name after \"Now\"). The swap is the joke.",
   "boxes": [
     {
       "id": "left",
@@ -35,5 +35,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already reads \"Friendship ended with MUDASIR\" across the top and \"Now SALMAN is my best friend\" down the middle. The left and right captions overlay the two names; only supply the replacement names."
 }

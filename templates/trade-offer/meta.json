@@ -7,8 +7,8 @@
     "width": 607,
     "height": 794
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A man in a suit with hands steepled proposes a deal under a \"TRADE OFFER\" banner. For a lopsided or absurd exchange.",
+  "when_to_use": "text1 = what I receive (under \"i receive:\"). text2 = what you receive (under \"you receive:\"). text3 = optional, extra line at the bottom. A wildly unfair trade is the joke.",
   "boxes": [
     {
       "id": "text1",
@@ -52,5 +52,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already has the banner \"TRADE OFFER\" (with warning signs) and the labels \"i receive:\" and \"you receive:\". Captions only fill in the items."
 }

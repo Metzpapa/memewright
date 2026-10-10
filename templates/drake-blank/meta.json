@@ -7,8 +7,8 @@
     "width": 717,
     "height": 717
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Drake rejects the top option (hand up, turning away) and prefers the bottom option (pointing, approving). For preferring one thing over another.",
+  "when_to_use": "top = the worse option; bottom = the better option. Text sits in the white boxes on the right half.",
   "boxes": [
     {
       "id": "top",

@@ -7,8 +7,8 @@
     "width": 1363,
     "height": 1524
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Pam from The Office is asked to find the differences between two pictures and calmly says they are the same. For two things that are being presented as different but are identical.",
+  "when_to_use": "text1 = the first thing (left card). text2 = the second thing (right card). text3 = leave empty; the subtitles already carry the joke.",
   "boxes": [
     {
       "id": "text1",

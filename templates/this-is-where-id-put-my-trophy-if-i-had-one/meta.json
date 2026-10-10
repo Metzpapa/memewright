@@ -7,8 +7,8 @@
     "width": 300,
     "height": 418
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Mr. Turner proudly gestures to an empty trophy pedestal, then breaks down crying. For proudly showing off an empty spot for an achievement you never earned.",
+  "when_to_use": "top = \"This is where I'd put my [trophy]\" (top panel). bottom = \"if I had one\" (bottom panel). The bottom is the punchline.",
   "boxes": [
     {
       "id": "top",

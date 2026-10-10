@@ -7,8 +7,8 @@
     "width": 1280,
     "height": 1236
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "An explorer finds the Scroll of Truth after 15 years, reads it, and angrily throws it away. For an uncomfortable truth people refuse to accept.",
+  "when_to_use": "left = the uncomfortable truth written on the scroll (bottom left panel). right = optional label at the bottom of the last panel, where he throws it away.",
   "boxes": [
     {
       "id": "left",
@@ -33,5 +33,6 @@
         "stroke": "#000000"
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already has the speech bubbles \"I'VE FINALLY FOUND IT... AFTER 15 YEARS\", \"THE SCROLL OF TRUTH!\" and \"NYEHHH\". Only write the truth on the scroll."
 }

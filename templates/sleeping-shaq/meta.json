@@ -7,8 +7,8 @@
     "width": 640,
     "height": 631
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Shaq sleeps peacefully in the top panel and is wide awake with glowing eyes in the bottom. For not caring about one thing but getting very excited about another.",
+  "when_to_use": "top = the thing you do not care about (left of the sleeping panel). bottom = the thing that wakes you up (left of the glowing panel). The bottom is the punchline.",
   "boxes": [
     {
       "id": "top",
@@ -40,5 +40,6 @@
         "maxFontPx": 50
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already labels the panels \"i sleep\" (top) and \"real shit\" (bottom). Captions only name the two things."
 }

@@ -7,8 +7,8 @@
     "width": 1113,
     "height": 629
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Three orangutans sit on a TV morning show couch; the one on the right is the speaker. For an absurd, blunt question asked as if in a serious setting, classically \"where banana\".",
+  "when_to_use": "top = the orangutan's question, \"where [thing]\" (near the right orangutan's head). bottom = optional, who is asking (on its body).",
   "boxes": [
     {
       "id": "top",

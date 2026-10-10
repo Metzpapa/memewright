@@ -7,8 +7,8 @@
     "width": 448,
     "height": 519
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A slumped stick figure listlessly pokes something on the ground with a stick, urging it to react. For waiting for something to happen and trying to provoke a response that never comes.",
+  "when_to_use": "top = the figure's urging, usually \"come on, do something\" or who is poking (upper right of the figure). bottom = the thing being poked (at the stick tip).",
   "boxes": [
     {
       "id": "top",

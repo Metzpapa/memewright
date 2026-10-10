@@ -7,8 +7,8 @@
     "width": 674,
     "height": 734
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Megamind stares into the camera with a smug, raised-brow look. For mockingly pointing out something someone lacks.",
+  "when_to_use": "top = \"No [thing]?\" (top). bottom = optional, a follow-up jab. Keep it short; the face does the work.",
   "boxes": [
     {
       "id": "top",

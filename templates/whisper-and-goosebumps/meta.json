@@ -7,8 +7,8 @@
     "width": 600,
     "height": 600
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Lips whisper into an ear, then skin breaks out in goosebumps. For something said that gives you chills, good or bad.",
+  "when_to_use": "top = what is whispered (top panel). bottom = optional, who gets the chills (bottom panel).",
   "boxes": [
     {
       "id": "top",

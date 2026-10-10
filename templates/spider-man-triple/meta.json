@@ -7,8 +7,8 @@
     "width": 600,
     "height": 551
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Three Spider-Men point at each other. For three things that are essentially the same, each accusing the others.",
+  "when_to_use": "text1, text2, text3 = the three lookalikes (each on one Spider-Man: left, top center, right).",
   "boxes": [
     {
       "id": "text1",

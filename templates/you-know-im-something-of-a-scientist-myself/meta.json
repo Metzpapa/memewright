@@ -7,8 +7,8 @@
     "width": 1200,
     "height": 600
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Norman Osborn smiles proudly. For claiming expertise based on minimal, silly experience.",
+  "when_to_use": "top = the minimal experience. bottom = \"You know, I'm something of a [expert] myself\". The bottom is the punchline.",
   "boxes": [
     {
       "id": "top",

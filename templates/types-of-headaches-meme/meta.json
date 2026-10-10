@@ -7,8 +7,8 @@
     "width": 483,
     "height": 497
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A medical-style chart of headaches showing where each one hurts, ending with a head that is entirely red. For naming the most painful, all-consuming source of stress.",
+  "when_to_use": "top = the name of the worst headache (above the fully red head, bottom right). bottom = optional small extra line. The worst one is the punchline.",
   "boxes": [
     {
       "id": "top",
@@ -38,5 +38,6 @@
         "valign": "bottom"
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already has the title \"Types of Headaches\" and the labels \"Migraine\", \"Hypertension\" and \"Stress\". Only name the fourth."
 }

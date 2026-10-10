@@ -7,8 +7,8 @@
     "width": 680,
     "height": 544
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Three dragon heads: two fierce and menacing, and a third that is goofy and derpy. For a group where two members are strong and one is clearly the odd weak link.",
+  "when_to_use": "text1 = what the group is (title, top). text2 and text3 = the two strong members (left and middle necks). text4 = the derpy one (right neck), the punchline.",
   "boxes": [
     {
       "id": "text1",

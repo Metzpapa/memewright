@@ -7,8 +7,8 @@
     "width": 500,
     "height": 312
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "The Grim Reaper knocks on a row of doors; blood trails from the doors he has already visited. For something picking off things one by one, with the next one up.",
+  "when_to_use": "text1 and text2 = things already taken (the first two doors, left). text3 = the next target he is knocking on (right door). Optionally the reaper himself is the threat; the next door is the punchline.",
   "boxes": [
     {
       "id": "text1",

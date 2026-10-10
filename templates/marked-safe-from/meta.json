@@ -7,8 +7,8 @@
     "width": 618,
     "height": 499
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A social media safety check-in card with a flag icon. For sarcastically declaring yourself safe from something that was never a threat to you.",
+  "when_to_use": "left = the thing you are \"safe from\" (between \"Marked Safe From\" and \"Today\"). right = optional, a tiny label on the flag. The absurd non-threat is the punchline.",
   "boxes": [
     {
       "id": "left",
@@ -35,5 +35,6 @@
         "rotation": 351
       }
     }
-  ]
+  ],
+  "baked_in_text": "The image already prints \"Marked Safe From\" above the left box and \"Today\" below it. The left caption only names the thing."
 }

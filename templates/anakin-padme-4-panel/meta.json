@@ -7,8 +7,8 @@
     "width": 768,
     "height": 768
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Anakin states a plan; Padme smiles and asks a hopeful follow-up; Anakin just stares; Padme's smile fades as she repeats the question. For a plan whose obvious good intention is suspiciously not confirmed.",
+  "when_to_use": "text1 = Anakin's statement of the plan (top left). text2 = Padme's hopeful assumption, usually \"[good outcome], right?\" (top right). Bottom left has no box: Anakin's silent stare is the beat. text3 = Padme repeating the same question, now worried (bottom right).",
   "boxes": [
     {
       "id": "text1",

@@ -7,8 +7,8 @@
     "width": 720,
     "height": 960
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Fred unmasks a captured ghost to reveal the culprit underneath. For exposing what something really is.",
+  "when_to_use": "text1 = what it appears to be, the ghost (top left). text2 = who does the unmasking (Fred, top). text3 = what it really is (bottom left). text4 = Fred again, optional (bottom).",
   "boxes": [
     {
       "id": "text1",

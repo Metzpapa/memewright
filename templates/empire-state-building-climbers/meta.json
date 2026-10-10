@@ -7,8 +7,8 @@
     "width": 1024,
     "height": 702
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Two climbers stand atop a skyscraper spire holding a large banner high above the city. For broadcasting a message in the most dramatic, high-stakes way possible.",
+  "when_to_use": "text1 = the message on the banner (right of the climbers, slightly rotated). Keep it short; the over-the-top delivery of a mundane or cheeky message is the joke.",
   "boxes": [
     {
       "id": "text1",

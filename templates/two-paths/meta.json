@@ -7,8 +7,8 @@
     "width": 416,
     "height": 416
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A boy stands at a fork in the road: one path leads to a sunny castle, the other to a dark, stormy one. For choosing between a good option and a bad one.",
+  "when_to_use": "text1 = the good option (sunny castle, left). text2 = the bad option (dark castle, right). text3 = the decider (on the boy, bottom).",
   "boxes": [
     {
       "id": "text1",

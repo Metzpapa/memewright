@@ -7,8 +7,8 @@
     "width": 920,
     "height": 1086
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Two frames: a school bus sits on the tracks, then a train smashes straight through it. For one thing completely and suddenly destroying another.",
+  "when_to_use": "top = the thing that gets wrecked (the bus, top frame). bottom = the unstoppable force that wrecks it (the train, bottom frame). The bottom label is the punchline.",
   "boxes": [
     {
       "id": "top",

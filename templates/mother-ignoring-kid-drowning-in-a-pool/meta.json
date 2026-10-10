@@ -7,8 +7,8 @@
     "width": 782,
     "height": 1032
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A mother happily plays with one child while another child struggles in the water; below, a skeleton sits at the bottom of the pool. For focusing on something new while neglecting the old thing, and the long-forgotten one.",
+  "when_to_use": "text3 = who is giving attention (the mother, right). text2 = the new favorite (the happy child). text1 = the neglected one (the struggling child, left). text4 = the long-forgotten one (the skeleton, bottom panel).",
   "boxes": [
     {
       "id": "text1",

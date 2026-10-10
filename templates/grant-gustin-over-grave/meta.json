@@ -7,8 +7,8 @@
     "width": 500,
     "height": 475
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Grant Gustin crouches beside a fresh grave and flashes a peace sign while mourners look on. For gloating over something that has died or failed.",
+  "when_to_use": "top = the thing that died (on the headstone). bottom = optional, a detail on the freshly dug dirt. Who is gloating is implied by the grinning man.",
   "boxes": [
     {
       "id": "top",

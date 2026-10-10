@@ -7,8 +7,8 @@
     "width": 937,
     "height": 720
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "A muscular, confident Doge stands next to a small, crying Cheems. For comparing a strong past or ideal version of something with a weak present or modern version.",
+  "when_to_use": "text1 = name of the strong side (above Doge, left). text2 = name of the weak side (above Cheems, right). text3 = the strong side's bold line or trait (under Doge). text4 = the weak side's pathetic line or trait (under Cheems), usually the punchline.",
   "boxes": [
     {
       "id": "text1",

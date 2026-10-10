@@ -7,8 +7,8 @@
     "width": 960,
     "height": 540
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "One astronaut looks at Earth and realizes something; a second astronaut behind him raises a gun. For a shocking realization that was actually true all along.",
+  "when_to_use": "left = the realization, phrased \"Wait, it's all [X]?\" (next to the first astronaut). right = \"Always has been\" (above the astronaut with the gun). Keep right short; it is the punchline.",
   "boxes": [
     {
       "id": "left",

@@ -7,8 +7,8 @@
     "width": 1587,
     "height": 1425
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "An anime man gestures at a butterfly and confidently misidentifies it. For completely misunderstanding what something is.",
+  "when_to_use": "text1 = the person misidentifying (on the man, top left). text2 = the thing (on the butterfly, right). text3 = the wrong guess, classically \"Is this a [wrong label]?\" (bottom).",
   "boxes": [
     {
       "id": "text1",

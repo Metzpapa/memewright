@@ -7,8 +7,8 @@
     "width": 700,
     "height": 1000
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Gus Fring adjusts his tie, calm and superior. For contrasting yourself with someone else to show how much better you are, ending in \"we are not the same.\"",
+  "when_to_use": "text1 = what the other person does (top). text2 = what I do instead, often absurdly or smugly different (middle). text3 = \"we are not the same\" (bottom).",
   "boxes": [
     {
       "id": "text1",

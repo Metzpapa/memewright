@@ -7,8 +7,8 @@
     "width": 1280,
     "height": 1440
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Eric Andre shoots a man, then turns to the camera and asks who did it. For blatantly causing a problem and then acting baffled about the cause.",
+  "when_to_use": "text1 = the one doing the damage (Eric Andre, top). text2 = the victim (on the couch, top). text3 = his innocent question, classically \"Why would [someone] do this?\" (bottom). The hypocrisy is the punchline.",
   "boxes": [
     {
       "id": "text1",

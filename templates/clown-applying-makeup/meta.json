@@ -7,8 +7,8 @@
     "width": 750,
     "height": 798
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Four panels of a man progressively putting on full clown makeup, wig and red nose. For a series of increasingly foolish decisions that end with you looking like a clown.",
+  "when_to_use": "text1..text4 escalate step by step, each beside a stage of makeup (left column, top to bottom). text1 = the first questionable choice; text4 = the final, most foolish one, with full clown face.",
   "boxes": [
     {
       "id": "text1",

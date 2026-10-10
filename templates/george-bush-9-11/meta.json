@@ -7,8 +7,8 @@
     "width": 300,
     "height": 180
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "An aide leans in to whisper news into George W. Bush's ear as he stares blankly ahead. For receiving bad or shocking news in the middle of something.",
+  "when_to_use": "top = the whispered news (across the top). bottom = optional, the setting or who is receiving it. The news is the punchline.",
   "boxes": [
     {
       "id": "top",

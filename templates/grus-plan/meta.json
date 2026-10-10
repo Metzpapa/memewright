@@ -7,8 +7,8 @@
     "width": 700,
     "height": 449
   },
-  "meaning": "",
-  "when_to_use": "",
+  "meaning": "Gru presents a plan on a flip chart; on the fourth step he realizes the plan backfires. For a plan with a fatal flaw only noticed at the end.",
+  "when_to_use": "text1, text2, text3 = steps of the plan (flip charts, top left, top right, bottom left). text4 = the same as text3, repeated as Gru does a double take (bottom right). Repeating text3 in text4 is classic.",
   "boxes": [
     {
       "id": "text1",
